@@ -91,8 +91,8 @@ try {
     AccessingNumber = WebUI.getText(findTestObject('Object Repository/Page_Iteration/AccesingCode'))
 
     println(AccessingNumber)  
-	AccessingNumber="";
-    if (AccessingNumber == '') { 
+    
+	if (AccessingNumber == '') { 
         status = 'Failed'// Failure
 
         CustomKeywords.'demo.GH_Keywords.writeSpreadSheet'(FilePathxls, status, AccessingNumber)
