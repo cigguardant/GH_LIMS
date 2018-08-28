@@ -30,7 +30,8 @@ import org.testng.Assert as Assert
 import java.lang.String as String
 
 try {
-    Random rnd = new Random()
+	
+    Random rnd = new Random()//remove
 
     int number = rnd.nextInt(999999)
 
