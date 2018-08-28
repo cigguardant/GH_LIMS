@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DemoSuite1_1" time="44" tests="2" failures="0" errors="0">
+   <testsuite name="DemoSuite1_1" tests="2" failures="0" errors="0" time="44" timestamp="2018-08-27 18:07:23" hostname="E004398 - HW1692.cignitiglobal.com" id="Test Suites/DemoSuite1_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\E004398\\Katalon Studio\\Guardant\\Reports\\DemoSuite1_1\\20180827_180722"/>
+         <property name="logFiles" value="C:\\Users\\E004398\\Katalon Studio\\Guardant\\Reports\\DemoSuite1_1\\20180827_180722\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\E004398\\Katalon Studio\\Guardant\\Reports\\DemoSuite1_1\\20180827_180722\\1535373448598.png, C:\\Users\\E004398\\Katalon Studio\\Guardant\\Reports\\DemoSuite1_1\\20180827_180722\\1535373486688.png"/>
+         <property name="hostName" value="E004398 - HW1692.cignitiglobal.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.222.55.120"/>
+         <property name="sessionId" value="0347270aa99274398a17dc510416a19b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/DemoTest/Login" classname="Test Cases/DemoTest/Login" status="PASSED">
+         <system-out><![CDATA[2018-08-27 18:07:24 - [TEST_CASE][PASSED] - Test Cases/DemoTest/Login: Test Cases/DemoTest/Login
+
+2018-08-27 18:07:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 18:07:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 18:07:28 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-08-27 18:07:28 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-08-27 18:07:28 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-08-27 18:07:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\E004398\\Katalon Studio\\Guardant\\Reports\\DemoSuite1_1\\20180827_180722\\1535373448598.png]]
+
+2018-08-27 18:07:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://10.4.80.97:8080/ghlims/logon.jsp' successfully
+
+2018-08-27 18:07:31 - [MESSAGE][PASSED] - Navigate to 'http://10.4.80.97:8080/ghlims/logon.jsp' successfully
+
+2018-08-27 18:07:31 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_LABVANTAGE Logon/input_username'
+
+2018-08-27 18:07:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_LABVANTAGE Logon/input_username'
+
+2018-08-27 18:07:31 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_LABVANTAGE Logon/input_password'
+
+2018-08-27 18:07:32 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_LABVANTAGE Logon/input_password'
+
+2018-08-27 18:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_LABVANTAGE Logon/button_Logon' is clicked on
+
+2018-08-27 18:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LABVANTAGE Logon/button_Logon' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DemoTest/CreateDE1_1" classname="Test Cases/DemoTest/CreateDE1_1" status="PASSED">
+         <system-out><![CDATA[2018-08-27 18:07:33 - [TEST_CASE][PASSED] - Test Cases/DemoTest/CreateDE1_1: Test Cases/DemoTest/CreateDE1_1
+
+2018-08-27 18:07:33 - [TEST_STEP][FAILED] - Statement - Try: Unable to verify image present (Root cause: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it)
+
+2018-08-27 18:07:33 - [TEST_STEP][PASSED] - Statement - rnd = new java.util.Random(): null
+
+2018-08-27 18:07:33 - [TEST_STEP][PASSED] - Statement - number = rnd.nextInt(999999): null
+
+2018-08-27 18:07:33 - [TEST_STEP][PASSED] - Statement - strbarcode = java.lang.String.format("%06d", number): null
+
+2018-08-27 18:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Iteration/td_Accession Clinical' is clicked on
+
+2018-08-27 18:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Iteration/td_Accession Clinical' is clicked on
+
+2018-08-27 18:07:34 - [TEST_STEP][PASSED] - setText: Text '943493' is set on object 'Object Repository/Page_Iteration/input_trfbarcode'
+
+2018-08-27 18:07:36 - [MESSAGE][PASSED] - Text '943493' is set on object 'Object Repository/Page_Iteration/input_trfbarcode'
+
+2018-08-27 18:07:36 - [TEST_STEP][PASSED] - setText: Text '455126' is set on object 'Object Repository/Page_Iteration/input_trfversion'
+
+2018-08-27 18:07:37 - [MESSAGE][PASSED] - Text '455126' is set on object 'Object Repository/Page_Iteration/input_trfversion'
+
+2018-08-27 18:07:37 - [TEST_STEP][PASSED] - setText: Text '458543' is set on object 'Object Repository/Page_Iteration/input_trackingno'
+
+2018-08-27 18:07:37 - [MESSAGE][PASSED] - Text '458543' is set on object 'Object Repository/Page_Iteration/input_trackingno'
+
+2018-08-27 18:07:37 - [TEST_STEP][PASSED] - setText: Text '943493' is set on object 'Object Repository/Page_Iteration/input_tubebarcode01'
+
+2018-08-27 18:07:37 - [MESSAGE][PASSED] - Text '943493' is set on object 'Object Repository/Page_Iteration/input_tubebarcode01'
+
+2018-08-27 18:07:37 - [TEST_STEP][PASSED] - setText: Text '943493' is set on object 'Object Repository/Page_Iteration/input_tubebarcode02'
+
+2018-08-27 18:07:37 - [MESSAGE][PASSED] - Text '943493' is set on object 'Object Repository/Page_Iteration/input_tubebarcode02'
+
+2018-08-27 18:07:37 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Page_Iteration/input_noofpages'
+
+2018-08-27 18:07:37 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Iteration/input_noofpages'
+
+2018-08-27 18:07:37 - [TEST_STEP][PASSED] - setText: Text 'Date' is set on object 'Object Repository/Page_Iteration/a_21'
+
+2018-08-27 18:07:38 - [MESSAGE][PASSED] - Text 'Date' is set on object 'Object Repository/Page_Iteration/a_21'
+
+2018-08-27 18:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Iteration/input_searchbutton' is clicked on
+
+2018-08-27 18:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Iteration/input_searchbutton' is clicked on
+
+2018-08-27 18:07:38 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-08-27 18:07:38 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-08-27 18:07:38 - [TEST_STEP][PASSED] - setText: Text 'sqa' is set on object 'Object Repository/Page_/input_firstnamesrch'
+
+2018-08-27 18:07:39 - [MESSAGE][PASSED] - Text 'sqa' is set on object 'Object Repository/Page_/input_firstnamesrch'
+
+2018-08-27 18:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_Search' is clicked on
+
+2018-08-27 18:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_Search' is clicked on
+
+2018-08-27 18:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/Physician_checkbox' is clicked on
+
+2018-08-27 18:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/Physician_checkbox' is clicked on
+
+2018-08-27 18:07:39 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-08-27 18:07:39 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-08-27 18:07:39 - [TEST_STEP][PASSED] - setText: Text '321' is set on object 'Object Repository/Page_Iteration/input_icdcode01'
+
+2018-08-27 18:07:40 - [MESSAGE][PASSED] - Text '321' is set on object 'Object Repository/Page_Iteration/input_icdcode01'
+
+2018-08-27 18:07:40 - [TEST_STEP][PASSED] - setText: Text '422' is set on object 'Object Repository/Page_Iteration/input_icdcode02'
+
+2018-08-27 18:07:40 - [MESSAGE][PASSED] - Text '422' is set on object 'Object Repository/Page_Iteration/input_icdcode02'
+
+2018-08-27 18:07:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Iteration/input_saveAccession01' is clicked on
+
+2018-08-27 18:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Iteration/input_saveAccession01' is clicked on
+
+2018-08-27 18:07:41 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-08-27 18:07:41 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-08-27 18:07:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-27 18:07:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-27 18:07:46 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\E004398\Downloads\A58708_preliminary_report.pdf' sent to object: 'Object Repository/Page_/Upload'
+
+2018-08-27 18:07:48 - [MESSAGE][PASSED] - File 'C:\Users\E004398\Downloads\A58708_preliminary_report.pdf' sent to object: 'Object Repository/Page_/Upload'
+
+2018-08-27 18:07:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-27 18:07:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-27 18:07:53 - [TEST_STEP][PASSED] - Statement - AccessingNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Iteration/AccesingCode)): Text of object 'Object Repository/Page_Iteration/AccesingCode' is: 'A0119559'
+
+2018-08-27 18:07:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Iteration/AccesingCode' is: 'A0119559'
+
+2018-08-27 18:07:54 - [TEST_STEP][PASSED] - Statement - println(AccessingNumber): null
+
+2018-08-27 18:07:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/submitbtn' is clicked on
+
+2018-08-27 18:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/submitbtn' is clicked on
+
+2018-08-27 18:08:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-27 18:08:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-27 18:08:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/closewindowBtn' is clicked on
+
+2018-08-27 18:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/closewindowBtn' is clicked on
+
+2018-08-27 18:08:06 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-08-27 18:08:06 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-08-27 18:08:06 - [TEST_STEP][FAILED] - verifyImagePresent: Unable to verify image present (Root cause: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it)
+
+2018-08-27 18:08:07 - [MESSAGE][FAILED] - Unable to verify image present (Root cause: java.lang.IllegalArgumentException: This object don't have IMAGE_FILE property, please add it)
+[[ATTACHMENT|C:\\Users\\E004398\\Katalon Studio\\Guardant\\Reports\\DemoSuite1_1\\20180827_180722\\1535373486688.png]]
+
+2018-08-27 18:08:07 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-08-27 18:08:07 - [TEST_STEP][PASSED] - Statement - println("Exception Occured" + e): null
+
+2018-08-27 18:08:07 - [TEST_STEP][PASSED] - Statement - e.printStackTrace(): null
+
+2018-08-27 18:08:07 - [TEST_STEP][PASSED] - Statement - Finally: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-27 18:07:23 - [TEST_SUITE][PASSED] - DemoSuite1_1: Test Cases/DemoTest/CreateDE1_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
