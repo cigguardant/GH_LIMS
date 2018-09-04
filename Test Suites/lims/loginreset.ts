@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>loginreset</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-04T17:19:45</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>617368e8-884a-4cff-ab22-326e81d6e984</testSuiteGuid>
+   <testCaseLink>
+      <guid>eed5711f-aeb2-41d8-aff1-12823145e0ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/lims/loginReset</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>95fa09f1-a1d4-40b7-8a1b-e5b49fb802a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b4955665-1d97-44eb-aad4-2aebbd628da9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d430986-2f12-44a1-ae2c-504775e03e6f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

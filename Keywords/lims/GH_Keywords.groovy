@@ -27,6 +27,9 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import internal.GlobalVariable
 
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -38,7 +41,11 @@ import WebUiBuiltInKeywords as WebUI
 
 public class GH_Keywords {
 
-
+/****
+ * 
+ * @param to TestObject element
+ * 
+ */
 	@Keyword
 	clickWithJS(TestObject to) {
 		WebDriver webDriver = DriverFactory.getWebDriver()
@@ -48,6 +55,13 @@ public class GH_Keywords {
 		KeywordUtil.markPassed("Clicked successfully")
 	}
 
+	/****
+	 * 
+	 * @param path
+	 * @param status
+	 * @param AccessingNumber
+	 * @return
+	 */
 	@Keyword
 	def writeSpreadSheet(String path,String status,String AccessingNumber) {
 		try {
@@ -74,7 +88,12 @@ public class GH_Keywords {
 		}
 	}
 
-
+/****
+ * 
+ * @param path
+ * @param result
+ * @return
+ */
 	@Keyword
 	def writeSpreadSheetXLSX(String path,String result) {
 		try {
@@ -95,6 +114,10 @@ public class GH_Keywords {
 		}
 	}
 
+	/****
+	 * 
+	 * @return random number
+	 */
 	@Keyword
 	def String createRandom(){
 

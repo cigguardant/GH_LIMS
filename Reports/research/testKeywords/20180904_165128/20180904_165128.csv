@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testKeywords,Chrome 68.0.3440.106,,2018-09-04 16:51:29,2018-09-04 16:52:03,33.553s,PASSED
+,,,,,,
+Test Cases/research/testKeywords,Chrome 68.0.3440.106,,2018-09-04 16:51:29,2018-09-04 16:52:02,32.413s,PASSED
+lims.KW_Class.login,Chrome 68.0.3440.106,,2018-09-04 16:51:30,2018-09-04 16:51:38,8.416s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-04 16:51:38,2018-09-04 16:52:02,23.721s,PASSED

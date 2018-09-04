@@ -26,13 +26,17 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class KW_Class {
-
+/****
+ * 
+ * @param userName
+ * @param pswd
+ */
 	@Keyword
 	public void login(String userName,String pswd){
 		WebUI.openBrowser(GlobalVariable.URL);
 		WebUI.maximizeWindow()
-		WebUI.setText(findTestObject('LogOn/input_username'), userName)
-		WebUI.setText(findTestObject('LogOn/input_password'), pswd)
-		WebUI.click(findTestObject('LogOn/button_Logon'))
+		WebUI.setText(findTestObject('logOn/input_username'), userName)
+		WebUI.setText(findTestObject('logOn/input_password'), pswd)
+		WebUI.click(findTestObject('logOn/button_Logon'))
 	}
 }
