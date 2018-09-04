@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CallTestMix</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bfc5fea-e16d-477d-93b9-b13f37d27f97</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>376ee354-e48a-47de-a770-de16bedd7008</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3eb43b83-af43-431b-a4f6-7ed04ef4e948</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>adc3f8f0-97e3-4bc0-b487-c9d67d1df463</id>
+      <masked>false</masked>
+      <name>pswd</name>
+   </variable>
+</TestCaseEntity>

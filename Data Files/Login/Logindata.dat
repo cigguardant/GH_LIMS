@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>5c9320c4-6d66-4a8a-bd7b-7e548794316f</dataFileGUID>
-   <dataSourceUrl>C:\GH\TestData\loginDemofile.xls</dataSourceUrl>
+   <dataSourceUrl>C:\GH_LIMS_TESTDATA\loginDemofile.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

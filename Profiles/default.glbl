@@ -4,4 +4,39 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://10.4.80.97:8080/ghlims/logon.jsp'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>UserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>Pwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\GH_LIMS_TESTDATA\\PDFfilepath.xlsx'</initValue>
+      <name>Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\GH_LIMS_TESTDATA\\finalreport\\'</initValue>
+      <name>File1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\GH_LIMS_TESTDATA\\old report\\'</initValue>
+      <name>File2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\GH_LIMS_TESTDATA\\differences pdf folder\\'</initValue>
+      <name>File3</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
